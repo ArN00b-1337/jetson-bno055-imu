@@ -1,9 +1,5 @@
 Jetson Orin NX + BNO055 IMU Interface
 
-"Platform" (https://img.shields.io/badge/Platform-Jetson%20Orin%20NX-green)
-"Interface" (https://img.shields.io/badge/Interface-I2C-blue)
-"Sensor" (https://img.shields.io/badge/Sensor-BNO055-orange)
-
 This repository documents the hardware interfacing of a BNO055 9-DoF IMU with the NVIDIA Jetson Orin NX using the I²C interface.
 
 ---
@@ -18,28 +14,13 @@ Hardware
 
 Wiring
 
-BNO055 Pin| Jetson Orin NX (40-pin header)
-VIN / VCC| Pin 1 (3.3V)
-GND| Pin 6 (GND)
-SDA| Pin 3 (I2C1_SDA)
-SCL| Pin 5 (I2C1_SCL)
+![Image alt](https://github.com/ArN00b-1337/jetson-bno055-imu/blob/9cbd30fb7ed8c78d10fbc263fdc8bae8796c970a/diagram%20main_1.jpeg)
+
 
 ---
 
-Connection Diagram
+Connection Flowchart
 
-BNO055 IMU                          Jetson Orin NX (40-pin header)
-
-      +------------+                      +-----------------------------+
-      |            |                      |                             |
-VCC --| VCC        |--------------------->| Pin 1   (3.3V)              |
-GND --| GND        |--------------------->| Pin 6   (GND)               |
-SDA --| SDA        |--------------------->| Pin 3   (I2C1_SDA)          |
-SCL --| SCL        |--------------------->| Pin 5   (I2C1_SCL)          |
-      |            |                      |                             |
-      +------------+                      +-----------------------------+
-
----
 
 Install Dependencies
 
