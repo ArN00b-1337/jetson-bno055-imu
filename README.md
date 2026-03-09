@@ -31,7 +31,9 @@ Connection Flowchart
 Install Dependencies
 
 sudo apt update
+
 sudo apt install i2c-tools
+
 pip3 install adafruit-circuitpython-bno055 adafruit-blinka
 
 ---
