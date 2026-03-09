@@ -17,9 +17,15 @@ Wiring
 ![Image alt](https://github.com/ArN00b-1337/jetson-bno055-imu/blob/9cbd30fb7ed8c78d10fbc263fdc8bae8796c970a/diagram%20main_1.jpeg)
 
 
+
+
 ---
 
 Connection Flowchart
+
+![Image alt](https://github.com/ArN00b-1337/jetson-bno055-imu/blob/2b33922b97a8d49d7e130b4e9e89bbb2baf1cf31/connection%20flowchart.jpeg)
+
+---
 
 
 Install Dependencies
